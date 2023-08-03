@@ -6,8 +6,8 @@ spring:
     type: com.zaxxer.hikari.HikariDataSource
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/fengyin?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true
-    username: root
-    password: root
+    username: 
+    password: 
     hikari:
       connection-timeout: 30000
       minimum-idle: 5
@@ -29,8 +29,8 @@ spring:
     virtual-host: fengyin
 
   redis:
-    host: 198.44.168.139
-    password: 673058Sqp
+    host: 
+    password: 
     port: 6379
     database: 0
 
